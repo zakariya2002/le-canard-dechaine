@@ -18,10 +18,10 @@ const display = Saira_Extra_Condensed({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://le-canard-dechaine.vercel.app"),
-  title: "Le Canard Déchaîné : le média qui fait réussir les talents",
+  metadataBase: new URL("https://le-grand-debrief.vercel.app"),
+  title: "Le Grand Débrief : le média qui fait réussir les talents",
   description:
-    "Le Canard Déchaîné accompagne les talents des quartiers et des territoires ruraux vers l'entrepreneuriat et l'emploi.",
+    "Le Grand Débrief décrypte l’actualité sport, politique et business, des quartiers aux territoires ruraux : analyses, portraits et enquêtes en accès libre.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

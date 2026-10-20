@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
 
-const KEY = "canard-cookies";
+const KEY = "grand-debrief-cookies";
 const listeners = new Set<() => void>();
 
 function readChoice() {

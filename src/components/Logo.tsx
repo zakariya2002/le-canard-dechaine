@@ -5,7 +5,7 @@ export default function Logo() {
       width="150"
       height="47"
       role="img"
-      aria-label="Le Canard Déchaîné"
+      aria-label="Le Grand Débrief"
     >
       <g transform="rotate(-4 200 63)">
         {/* speed lines */}
@@ -23,10 +23,10 @@ export default function Logo() {
           transform="skewX(-10)"
         >
           <text x="124" y="46" fontSize="44" letterSpacing="1">
-            LE CANARD
+            LE GRAND
           </text>
           <text x="232" y="112" fontSize="62" letterSpacing="2">
-            DÉCHAÎNÉ
+            DÉBRIEF
           </text>
         </g>
       </g>

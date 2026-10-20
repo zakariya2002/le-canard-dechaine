@@ -44,7 +44,7 @@ export default function Home() {
 
       <section className="intro">
         <p className="intro-text">
-          Présent dans près de <strong>20 villes en France,</strong> Le Canard Déchaîné
+          Présent dans près de <strong>20 villes en France,</strong> Le Grand Débrief
           décrypte l&apos;actualité sportive, politique et business depuis les quartiers et
           les territoires, avec des enquêtes, des analyses et des portraits en accès
           libre.
@@ -80,9 +80,9 @@ export default function Home() {
       <section className="join">
         <div className="join-head">
           <h2>
-            Vous êtes
+            Prêts à
             <br />
-            déchaînés
+            débriefer
           </h2>
           <p>
             Vous souhaitez proposer un sujet, devenir partenaire, rejoindre notre

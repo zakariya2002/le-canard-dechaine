@@ -16,7 +16,7 @@ export default async function GenericPage({ params }: PageProps<"/[...slug]">) {
   return (
     <section className="generic">
       <h1>{title}</h1>
-      <p>Cette page arrive bientôt. Restez déchaînés !</p>
+      <p>Cette page arrive bientôt. Restez à l’écoute !</p>
       <Link href="/" className="nav-cta">
         Retour à l&apos;accueil
       </Link>
