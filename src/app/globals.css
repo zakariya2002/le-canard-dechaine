@@ -723,6 +723,23 @@ main {
 .article-body li {
   margin-bottom: 10px;
 }
+.article-figure {
+  margin: 40px -120px;
+}
+.article-figure img {
+  width: 100%;
+  max-height: 820px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}
+.article-figure figcaption {
+  font-family: var(--poppins);
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  padding: 0 4px;
+}
 .article + .news {
   margin-top: 100px;
 }
@@ -750,6 +767,9 @@ main {
   .article-cover {
     height: 280px;
     border-radius: 20px;
+  }
+  .article-figure {
+    margin: 28px 0;
   }
   .article-body {
     margin-top: 36px;

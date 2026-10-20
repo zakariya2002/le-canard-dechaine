@@ -66,6 +66,14 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
                     ))}
                   </ul>
                 );
+              case "img":
+                return (
+                  <figure key={i} className="article-figure">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={b.src} alt={b.alt} loading="lazy" />
+                    {b.caption && <figcaption>{b.caption}</figcaption>}
+                  </figure>
+                );
               default:
                 return <p key={i}>{b.text}</p>;
             }
