@@ -18,9 +18,9 @@ const display = Saira_Extra_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Les Acharnés — Le média qui fait réussir les talents",
+  title: "Le Canard Déchaîné — Le média qui fait réussir les talents",
   description:
-    "Les Acharnés accompagnent les talents des quartiers et des territoires ruraux vers l'entrepreneuriat et l'emploi.",
+    "Le Canard Déchaîné accompagne les talents des quartiers et des territoires ruraux vers l'entrepreneuriat et l'emploi.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -4,12 +4,12 @@ const COLUMNS = [
   [
     { href: "/", label: "Accueil" },
     { href: "/a-propos", label: "À propos" },
-    { href: "/programmes", label: "Programmes" },
+    { href: "/actualites", label: "Actualités" },
   ],
   [
-    { href: "/partenaires", label: "Partenaires" },
-    { href: "/medias", label: "Médias" },
-    { href: "/nous-rejoindre", label: "Nous rejoindre" },
+    { href: "/sport", label: "Sport" },
+    { href: "/politique", label: "Politique" },
+    { href: "/business", label: "Business" },
   ],
   [
     { href: "/contact", label: "Nous contacter" },
@@ -69,7 +69,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p className="footer-news-title">Suivez notre actu sur la newsletter</p>
-          <form className="newsletter" action="#">
+          <form className="newsletter" id="newsletter" action="#">
             <input type="email" required placeholder="VOTRE ADRESSE EMAIL" />
             <button type="submit">S&apos;inscrire</button>
             <p className="newsletter-note">

@@ -1,28 +1,36 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useSyncExternalStore } from "react";
 
-const KEY = "acharnes-cookies";
+const KEY = "canard-cookies";
+const listeners = new Set<() => void>();
+
+function readChoice() {
+  try {
+    return localStorage.getItem(KEY);
+  } catch {
+    return null;
+  }
+}
+
+function subscribe(cb: () => void) {
+  listeners.add(cb);
+  return () => listeners.delete(cb);
+}
 
 export default function CookieBanner() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    try {
-      if (!localStorage.getItem(KEY)) setVisible(true);
-    } catch {
-      setVisible(true);
-    }
-  }, []);
+  // Server snapshot: treat as already answered so the banner never flashes during SSR.
+  const choice = useSyncExternalStore(subscribe, readChoice, () => "ssr");
 
   const close = (value: string) => {
     try {
       localStorage.setItem(KEY, value);
     } catch {}
-    setVisible(false);
+    listeners.forEach((l) => l());
   };
 
-  if (!visible) return null;
+  if (choice) return null;
 
   return (
     <div className="cookie">
@@ -37,9 +45,9 @@ export default function CookieBanner() {
         <button className="cookie-accept" onClick={() => close("accepted")}>
           Accepter
         </button>
-        <a className="cookie-more" href="/politique-de-confidentialite">
+        <Link className="cookie-more" href="/politique-de-confidentialite">
           En savoir plus
-        </a>
+        </Link>
       </div>
     </div>
   );

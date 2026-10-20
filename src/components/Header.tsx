@@ -5,11 +5,11 @@ import { useState } from "react";
 import Logo from "./Logo";
 
 export const NAV = [
+  { href: "/actualites", label: "Actualités" },
+  { href: "/sport", label: "Sport" },
+  { href: "/politique", label: "Politique" },
+  { href: "/business", label: "Business" },
   { href: "/a-propos", label: "À propos" },
-  { href: "/programmes", label: "Programmes" },
-  { href: "/evenements", label: "Événements" },
-  { href: "/medias", label: "Médias" },
-  { href: "/partenaires", label: "Partenaires" },
 ];
 
 export default function Header() {
@@ -26,8 +26,8 @@ export default function Header() {
             {item.label}
           </Link>
         ))}
-        <Link href="/postuler" className="nav-cta" onClick={() => setOpen(false)}>
-          Je postule
+        <Link href="#newsletter" className="nav-cta" onClick={() => setOpen(false)}>
+          Newsletter
         </Link>
       </div>
       <button

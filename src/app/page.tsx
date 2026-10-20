@@ -1,30 +1,12 @@
 import Link from "next/link";
 import Arrow from "@/components/Arrow";
+import NewsCard from "@/components/NewsCard";
+import { ARTICLES } from "@/data/articles";
 
 const PROGRAMS = [
-  { href: "/programmes/entrepreneuriat", title: ["Le programme", "Entrepreneuriat"], color: "#002df0" },
-  { href: "/programmes/employabilite", title: ["Le programme", "Employabilité"], color: "#27a49d" },
-  { href: "/lever-des-fonds", title: ["Je veux lever", "des fonds"], color: "#7b3ff2" },
-];
-
-const ARTICLES = [
-  {
-    href: "/articles/salon-entrepreneurs",
-    title: "Les Acharnés au Salon des Entrepreneurs !",
-    tag: "Les Acharnés",
-    img: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1000&q=80",
-  },
-  {
-    href: "/articles/promotion-nationale",
-    title: "Promotion nationale : 2ème phase de sélection",
-    tag: "Les Acharnés",
-    img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1000&q=80",
-  },
-  {
-    href: "/articles/together-4",
-    title: "TOGETHER ACHARNÉS 4",
-    img: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1000&q=80",
-  },
+  { href: "/politique", title: ["La rubrique", "Politique"], color: "#002df0" },
+  { href: "/sport", title: ["La rubrique", "Sport"], color: "#27a49d" },
+  { href: "/business", title: ["La rubrique", "Business"], color: "#7b3ff2" },
 ];
 
 export default function Home() {
@@ -62,10 +44,10 @@ export default function Home() {
 
       <section className="intro">
         <p className="intro-text">
-          Présents dans près de <strong>20 villes en France,</strong> Les Acharnés
-          accompagnent les habitants des Quartiers Prioritaires de la Ville et des
-          milieux ruraux vers l&apos;entrepreneuriat et le retour à l&apos;emploi grâce à
-          des programmes de formations gratuits.
+          Présent dans près de <strong>20 villes en France,</strong> Le Canard Déchaîné
+          décrypte l&apos;actualité sportive, politique et business depuis les quartiers et
+          les territoires, avec des enquêtes, des analyses et des portraits en accès
+          libre.
         </p>
         <div className="programs">
           {PROGRAMS.map((p) => (
@@ -84,16 +66,14 @@ export default function Home() {
       <section className="news">
         <h2 className="news-title">Dernières actualités</h2>
         <div className="news-grid">
-          {ARTICLES.map((a) => (
-            <Link key={a.href} href={a.href} className="news-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={a.img} alt={a.title} loading="lazy" />
-              <div className="news-overlay">
-                {a.tag && <span className="news-tag">{a.tag}</span>}
-                <h3>{a.title}</h3>
-              </div>
-            </Link>
+          {ARTICLES.slice(0, 3).map((a) => (
+            <NewsCard key={a.slug} article={a} />
           ))}
+        </div>
+        <div className="news-more">
+          <Link href="/actualites" className="nav-cta">
+            Toutes les actualités
+          </Link>
         </div>
       </section>
 
@@ -102,18 +82,18 @@ export default function Home() {
           <h2>
             Vous êtes
             <br />
-            acharnés
+            déchaînés
           </h2>
           <p>
-            Vous souhaitez devenir candidat, partenaire, rejoindre notre communauté
-            d&apos;experts.
+            Vous souhaitez proposer un sujet, devenir partenaire, rejoindre notre
+            communauté de journalistes.
             <br />
             Contactez-nous ! Nous ne manquerons pas de vous répondre rapidement.
           </p>
         </div>
         <div className="join-row join-row--big">
-          <Link href="/programmes" className="tile tile--blue">
-            <p>Rejoindre un programme</p>
+          <Link href="/actualites" className="tile tile--blue">
+            <p>Lire nos articles</p>
             <Arrow color="#000" />
           </Link>
           <Link href="/devenir-partenaire" className="tile tile--grey">
@@ -122,8 +102,8 @@ export default function Home() {
           </Link>
         </div>
         <div className="join-row join-row--small">
-          <Link href="/devenir-formateur" className="tile tile--sky">
-            <p>Devenir formateur</p>
+          <Link href="/proposer-un-sujet" className="tile tile--sky">
+            <p>Proposer un sujet</p>
             <Arrow color="#000" size={24} />
           </Link>
           <Link href="/contact" className="tile tile--ice">
@@ -131,7 +111,7 @@ export default function Home() {
             <Arrow color="#000" size={24} />
           </Link>
           <Link href="/nous-rejoindre" className="tile tile--white">
-            <p>Rejoindre l&apos;équipe acharnée</p>
+            <p>Rejoindre la rédaction</p>
             <Arrow color="#000" size={24} />
           </Link>
         </div>
