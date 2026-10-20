@@ -125,7 +125,7 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
                 return (
                   <blockquote key={i} style={{ borderColor: cat.color }}>
                     <p>« {b.text} »</p>
-                    {b.source && <cite>— {b.source}</cite>}
+                    {b.source && <cite>{b.source}</cite>}
                   </blockquote>
                 );
               case "list":
