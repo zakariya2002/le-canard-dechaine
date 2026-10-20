@@ -10,7 +10,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80",
     imageAlt: "Une équipe de jeunes entrepreneurs travaillant ensemble autour d’une table",
     author: "Samia Belkacem",
-    date: "2026-10-14",
+    date: "2025-11-13",
     readTime: 7,
     featured: true,
     body: [
@@ -75,7 +75,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1600&q=80",
     imageAlt: "Des fondateurs de start-up en réunion devant un ordinateur portable",
     author: "Thomas Rivière",
-    date: "2026-10-07",
+    date: "2023-01-24",
     readTime: 7,
     body: [
       {
@@ -140,7 +140,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80",
     imageAlt: "Illustration abstraite évoquant l’intelligence artificielle",
     author: "Julien Morvan",
-    date: "2026-09-29",
+    date: "2024-09-10",
     readTime: 7,
     body: [
       {
@@ -202,7 +202,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80",
     imageAlt: "Bureau avec documents, graphiques et ordinateur portable",
     author: "Claire Dufresne",
-    date: "2026-09-22",
+    date: "2026-01-20",
     readTime: 6,
     body: [
       {
@@ -260,7 +260,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80",
     imageAlt: "Des bénévoles réunis autour d’une action solidaire",
     author: "Nadia Ferhat",
-    date: "2026-09-15",
+    date: "2026-06-04",
     readTime: 7,
     body: [
       {
@@ -322,7 +322,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=1600&q=80",
     imageAlt: "Paiement par carte bancaire au comptoir d’une petite boutique",
     author: "Antoine Lecomte",
-    date: "2026-09-08",
+    date: "2025-05-06",
     readTime: 6,
     body: [
       {
@@ -380,7 +380,7 @@ export const businessArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1600&q=80",
     imageAlt: "Calculatrice, pièces de monnaie et documents financiers sur un bureau",
     author: "Mathilde Garnier",
-    date: "2026-09-02",
+    date: "2023-02-16",
     readTime: 6,
     body: [
       {

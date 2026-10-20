@@ -3,6 +3,12 @@ import { sportArticles } from "./articles-sport";
 import { politiqueArticles } from "./articles-politique";
 import { businessArticles } from "./articles-business";
 import { driveArticles } from "./articles-drive";
+import { sport2Articles } from "./articles-sport-2";
+import { sport3Articles } from "./articles-sport-3";
+import { politique2Articles } from "./articles-politique-2";
+import { politique3Articles } from "./articles-politique-3";
+import { business2Articles } from "./articles-business-2";
+import { business3Articles } from "./articles-business-3";
 
 export type { Article, Category } from "./types";
 
@@ -17,6 +23,12 @@ export const ARTICLES: Article[] = [
   ...politiqueArticles,
   ...businessArticles,
   ...driveArticles,
+  ...sport2Articles,
+  ...sport3Articles,
+  ...politique2Articles,
+  ...politique3Articles,
+  ...business2Articles,
+  ...business3Articles,
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getArticle(slug: string) {

@@ -10,7 +10,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=1600&q=80",
     imageAlt: "Une main glissant un bulletin dans une urne transparente",
     author: "Camille Roussel",
-    date: "2026-10-14",
+    date: "2024-05-30",
     readTime: 7,
     featured: true,
     body: [
@@ -76,7 +76,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80",
     imageAlt: "Façades d’immeubles d’habitat collectif sous un ciel bleu",
     author: "Yanis Benmoussa",
-    date: "2026-10-08",
+    date: "2023-04-18",
     readTime: 7,
     body: [
       {
@@ -132,7 +132,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80",
     imageAlt: "Champ agricole baigné de lumière en fin de journée",
     author: "Hélène Vasseur",
-    date: "2026-09-29",
+    date: "2025-03-11",
     readTime: 6,
     body: [
       {
@@ -191,7 +191,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1600&q=80",
     imageAlt: "Vue aérienne d’une ville au lever du jour",
     author: "Bertrand Ollivier",
-    date: "2026-09-22",
+    date: "2024-11-21",
     readTime: 7,
     body: [
       {
@@ -252,7 +252,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=1600&q=80",
     imageAlt: "Drapeaux européens flottant devant un bâtiment institutionnel",
     author: "Inès Lefebvre-Martin",
-    date: "2026-09-15",
+    date: "2024-04-24",
     readTime: 7,
     body: [
       {
@@ -312,7 +312,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1600&q=80",
     imageAlt: "Groupe de personnes réunies autour d’une table pour une discussion",
     author: "Margaux Delahaye",
-    date: "2026-09-08",
+    date: "2025-10-02",
     readTime: 6,
     body: [
       {
@@ -372,7 +372,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80",
     imageAlt: "Maison individuelle avec jardin dans un quartier résidentiel",
     author: "Antoine Garnier",
-    date: "2026-10-01",
+    date: "2023-06-08",
     readTime: 7,
     body: [
       {
@@ -432,7 +432,7 @@ export const politiqueArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1600&q=80",
     imageAlt: "Éoliennes alignées dans un paysage de campagne",
     author: "Julien Morvan",
-    date: "2026-10-19",
+    date: "2026-04-15",
     readTime: 7,
     body: [
       {

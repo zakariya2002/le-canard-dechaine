@@ -10,7 +10,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1600&q=80",
     imageAlt: "Athlète en position de départ dans les starting-blocks sur une piste d’athlétisme rouge",
     author: "Margaux Lefèvre",
-    date: "2026-10-14",
+    date: "2026-08-11",
     readTime: 7,
     featured: true,
     body: [
@@ -88,7 +88,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1600&q=80",
     imageAlt: "Vue panoramique d’un grand stade de football éclairé, tribunes pleines",
     author: "Yanis Haddad",
-    date: "2026-10-08",
+    date: "2024-11-19",
     readTime: 7,
     body: [
       {
@@ -151,7 +151,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?w=1600&q=80",
     imageAlt: "Un éducateur donne des consignes à de jeunes footballeurs sur un terrain synthétique",
     author: "Claire Dumoulin",
-    date: "2026-09-22",
+    date: "2023-03-14",
     readTime: 6,
     body: [
       {
@@ -224,7 +224,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1600&q=80",
     imageAlt: "Un ballon de basket traverse le filet d’un panier dans une salle sombre",
     author: "Théo Marchand",
-    date: "2026-10-01",
+    date: "2025-01-22",
     readTime: 6,
     body: [
       {
@@ -292,7 +292,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1600&q=80",
     imageAlt: "Un peloton de cyclistes roule groupé sur une route bordée d’arbres",
     author: "Inès Roussel",
-    date: "2026-09-15",
+    date: "2023-07-06",
     readTime: 6,
     body: [
       {
@@ -364,7 +364,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1600&q=80",
     imageAlt: "Un joueur équipé d’un casque concentré devant un écran lors d’une compétition de jeu vidéo",
     author: "Bastien Ferrand",
-    date: "2026-09-29",
+    date: "2025-06-17",
     readTime: 6,
     body: [
       {
@@ -436,7 +436,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=1600&q=80",
     imageAlt: "Match de football nocturne sur un terrain éclairé par un projecteur",
     author: "Sophie Ndiaye",
-    date: "2026-09-08",
+    date: "2023-09-27",
     readTime: 6,
     body: [
       {
@@ -505,7 +505,7 @@ export const sportArticles: Article[] = [
     image: "https://images.unsplash.com/photo-1480099225005-2513c8947aec?w=1600&q=80",
     imageAlt: "Mêlée de rugby entre deux équipes sur un terrain en herbe",
     author: "Julien Castagné",
-    date: "2026-10-19",
+    date: "2024-02-08",
     readTime: 7,
     body: [
       {
