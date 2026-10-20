@@ -740,6 +740,52 @@ main {
   margin-top: 10px;
   padding: 0 4px;
 }
+.dossier {
+  max-width: 740px;
+  margin: 48px auto 0;
+  background: var(--dark);
+  color: #fff;
+  border-radius: 20px;
+  padding: 28px 32px;
+}
+.dossier-label {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.dossier ul {
+  list-style: none;
+  margin-bottom: 18px;
+}
+.dossier li {
+  border-top: 1px solid #333;
+  padding: 12px 0;
+  font-family: var(--inter);
+  font-weight: 600;
+  font-size: 17px;
+}
+.dossier li a:hover,
+.dossier-all:hover {
+  color: #7aa3ff;
+}
+.dossier-all {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.dossier-intro {
+  max-width: 820px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  text-align: center;
+  color: #ddd;
+  font-family: var(--inter);
+  font-size: 19px;
+  line-height: 30px;
+}
 .article + .news {
   margin-top: 100px;
 }

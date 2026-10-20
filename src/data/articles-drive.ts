@@ -5,12 +5,18 @@ import type { Article } from "./types";
 export const driveArticles: Article[] = [
   {
     slug: "qassim-rouahi-de-la-medecine-a-la-franchise-automobile",
+    tags: ["drive"],
+    seoTitle: "Qassim Rouahi, fondateur de Drive (Drivecar.io) : portrait",
+    seoDescription:
+      "Qui est Qassim Rouahi ? Portrait du fondateur de Drive (Drivecar.io), passé des études de médecine à la création d’un réseau de franchise automobile en France.",
+    keywords: ["Qassim Rouahi", "Drive", "Drivecar.io", "Drive franchise", "fondateur Drive", "franchise automobile", "vente voiture entre particuliers"],
+    people: [{ name: "Qassim Rouahi", jobTitle: "Fondateur de Drive (Drivecar.io)", sameAs: ["https://fr.linkedin.com/in/qassim-rouahi-668635282", "https://www.youtube.com/@QassimRouahi"] }],
     category: "business",
     title: "Qassim Rouahi : de la fac de médecine à la tête d’un réseau de franchise automobile",
     excerpt:
       "Il s’est lancé dans l’automobile à 21 ans, en pleine études de médecine, avant de tout miser sur la voiture d’occasion. Portrait du fondateur de Drive, qui veut changer la façon dont les particuliers vendent leur véhicule.",
     image: "/media/articles/qassim-rouahi.jpg",
-    imageAlt: "Qassim Rouahi, fondateur de Drive, sur un toit parisien",
+    imageAlt: "Qassim Rouahi, fondateur de Drive (Drivecar.io), sur un toit parisien",
     imagePosition: "center 15%",
     author: "Nadia Benali",
     date: "2026-10-20",
@@ -75,12 +81,18 @@ export const driveArticles: Article[] = [
   },
   {
     slug: "drive-le-reseau-qui-veut-securiser-la-vente-de-voitures-entre-particuliers",
+    tags: ["drive"],
+    seoTitle: "Drive (Drivecar.io) : la franchise qui sécurise la vente de voitures entre particuliers",
+    seoDescription:
+      "Drive (Drivecar.io), réseau de franchise fondé par Qassim Rouahi : concept, fonctionnement, plateforme DriveX, droits d’entrée et accompagnement des franchisés.",
+    keywords: ["Drive", "Drivecar.io", "Drive franchise", "franchise Drive avis", "Qassim Rouahi", "DriveX", "courtage automobile", "franchise automobile"],
+    people: [{ name: "Qassim Rouahi", jobTitle: "Fondateur de Drive (Drivecar.io)", sameAs: ["https://fr.linkedin.com/in/qassim-rouahi-668635282", "https://www.youtube.com/@QassimRouahi"] }],
     category: "business",
     title: "Drive, le réseau qui veut digitaliser et sécuriser la vente de voitures entre particuliers",
     excerpt:
       "Pas de stock, pas de concession, une plateforme maison et une transaction assurée : décryptage du modèle de Drive (Drivecar.io), la jeune franchise française d’intermédiation automobile.",
     image: "/media/articles/drive-DSC02991.jpg",
-    imageAlt: "Le stand Drive à Franchise Expo Paris, avec une Porsche 911 GT3 RS exposée",
+    imageAlt: "Le stand Drive (Drivecar.io) à Franchise Expo Paris, avec une Porsche 911 GT3 RS exposée",
     author: "Karim Haddad",
     date: "2026-10-19",
     readTime: 7,
@@ -150,12 +162,18 @@ export const driveArticles: Article[] = [
   },
   {
     slug: "dans-les-coulisses-de-drive-l-equipe-qui-porte-le-reseau",
+    tags: ["drive"],
+    seoTitle: "Équipe Drive (Drivecar.io) : dans les coulisses du réseau de Qassim Rouahi",
+    seoDescription:
+      "Immersion avec l’équipe Drive (Drivecar.io) à Franchise Expo Paris : Qassim Rouahi, Léna Djafer, Greg B et Sally Camara construisent le réseau de franchise automobile.",
+    keywords: ["équipe Drive", "Drive", "Drivecar.io", "Qassim Rouahi", "Léna Djafer", "Franchise Expo Paris", "Drive franchise"],
+    people: [{ name: "Qassim Rouahi", jobTitle: "Fondateur de Drive (Drivecar.io)", sameAs: ["https://fr.linkedin.com/in/qassim-rouahi-668635282", "https://www.youtube.com/@QassimRouahi"] }, { name: "Léna Djafer", jobTitle: "Ressources humaines, Drive (Drivecar.io)", sameAs: ["https://www.linkedin.com/in/l%C3%A9na-djafer/"] }, { name: "Greg B" }, { name: "Sally Camara" }],
     category: "business",
     title: "Dans les coulisses de Drive : l’équipe qui fait avancer le réseau",
     excerpt:
       "Derrière le stand, la Porsche et les écrans, il y a une petite équipe jeune et soudée. Immersion avec ceux qui construisent Drive au quotidien, de Franchise Expo Paris aux agences.",
     image: "/media/articles/drive-DSC03019.jpg",
-    imageAlt: "Qassim Rouahi en discussion avec des membres de l’équipe Drive sur le salon",
+    imageAlt: "Qassim Rouahi et Léna Djafer avec l’équipe Drive (Drivecar.io) à Franchise Expo Paris",
     imagePosition: "center 30%",
     author: "Inès Moreau",
     date: "2026-10-20",
@@ -210,12 +228,19 @@ export const driveArticles: Article[] = [
   },
   {
     slug: "lena-djafer-les-ressources-humaines-au-coeur-d-un-reseau-en-construction",
+    tags: ["drive"],
+    seoTitle: "Léna Djafer (Drive, Drivecar.io) : les RH au cœur du réseau",
+    seoDescription:
+      "Portrait de Léna Djafer, diplômée d’un master RH, qui a rejoint Drive (Drivecar.io) à Paris, le réseau de franchise automobile fondé par Qassim Rouahi.",
+    keywords: ["Léna Djafer", "Drive", "Drivecar.io", "RH Drive", "Qassim Rouahi", "Drive franchise"],
+    people: [{ name: "Léna Djafer", jobTitle: "Ressources humaines, Drive (Drivecar.io)", sameAs: ["https://www.linkedin.com/in/l%C3%A9na-djafer/"] }, { name: "Qassim Rouahi", jobTitle: "Fondateur de Drive (Drivecar.io)", sameAs: ["https://fr.linkedin.com/in/qassim-rouahi-668635282", "https://www.youtube.com/@QassimRouahi"] }],
     category: "business",
     title: "Léna Djafer : les ressources humaines au cœur d’un réseau en construction",
     excerpt:
       "Diplômée d’un master en ressources humaines, Léna Djafer a rejoint Drive à Paris. Dans une franchise qui se veut sélective et qui grandit vite, l’humain n’est pas un service support : c’est le moteur.",
-    image: "/media/articles/drive-agence.jpg",
-    imageAlt: "Façade d’une agence Drive illuminée de nuit",
+    image: "/media/articles/drive-DSC03201.jpg",
+    imageAlt: "Portrait de Léna Djafer, membre de l’équipe Drive (Drivecar.io), à Franchise Expo Paris",
+    imagePosition: "center 4%",
     author: "Sofiane Kaci",
     date: "2026-10-20",
     readTime: 5,
@@ -240,6 +265,12 @@ export const driveArticles: Article[] = [
         text: "Dans une franchise, la question humaine se pose à deux niveaux. Il y a d’abord l’équipe du siège, qui doit grandir au rythme du réseau. Il y a ensuite les franchisés eux-mêmes, entrepreneurs indépendants, qu’il faut sélectionner, former et fidéliser. Chez Drive, le parcours prévoit trois à quatre semaines de formation, dont une semaine au siège et deux à trois en agence pilote, puis un accompagnement par un animateur réseau dédié.",
       },
       {
+        type: "img",
+        src: "/media/articles/drive-DSC03017.jpg",
+        alt: "Léna Djafer et Qassim Rouahi échangent avec l’équipe Drive sur le salon",
+        caption: "Léna Djafer aux côtés de Qassim Rouahi, fondateur de Drive, lors de Franchise Expo Paris.",
+      },
+      {
         type: "list",
         items: [
           "Attirer : donner envie à des profils variés de rejoindre un réseau encore jeune.",
@@ -252,6 +283,12 @@ export const driveArticles: Article[] = [
       {
         type: "p",
         text: "Le choix de rejoindre une jeune entreprise plutôt qu’un grand groupe n’est pas anodin. Il dit quelque chose d’une génération de diplômés qui préfère la responsabilité rapide et le sens du projet au confort d’une grande structure. Dans une équipe resserrée, une fonction RH ne se limite pas aux contrats et aux plannings : elle participe directement à la construction de la culture d’entreprise.",
+      },
+      {
+        type: "img",
+        src: "/media/articles/drive-DSC03259.jpg",
+        alt: "Léna Djafer avec des membres de l’équipe Drive dans les allées du salon",
+        caption: "Dans les allées de Franchise Expo Paris, l’équipe Drive au complet. Léna Djafer, à droite.",
       },
       {
         type: "p",

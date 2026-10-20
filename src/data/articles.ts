@@ -23,6 +23,13 @@ export function getArticle(slug: string) {
   return ARTICLES.find((a) => a.slug === slug);
 }
 
+export function byTag(tag: string) {
+  return ARTICLES.filter((a) => a.tags?.includes(tag));
+}
+
+export const SITE_URL = "https://le-canard-dechaine.vercel.app";
+export const SITE_NAME = "Le Canard Déchaîné";
+
 export function byCategory(category: Category) {
   return ARTICLES.filter((a) => a.category === category);
 }

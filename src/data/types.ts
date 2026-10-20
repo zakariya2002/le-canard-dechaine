@@ -19,5 +19,10 @@ export type Article = {
   date: string; // ISO yyyy-mm-dd
   readTime: number; // minutes
   featured?: boolean;
+  tags?: string[]; // e.g. "drive" groups articles into a dossier page
+  seoTitle?: string;
+  seoDescription?: string;
+  keywords?: string[];
+  people?: { name: string; jobTitle?: string; sameAs?: string[] }[];
   body: Block[];
 };

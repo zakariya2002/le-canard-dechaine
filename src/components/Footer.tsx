@@ -12,6 +12,7 @@ const COLUMNS = [
     { href: "/business", label: "Business" },
   ],
   [
+    { href: "/drive", label: "Dossier Drive" },
     { href: "/contact", label: "Nous contacter" },
     { href: "/mentions-legales", label: "Mentions légales" },
     { href: "/politique-de-confidentialite", label: "Politique de confidentialité" },
