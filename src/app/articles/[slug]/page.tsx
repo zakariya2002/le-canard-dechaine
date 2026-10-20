@@ -138,7 +138,7 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
                 );
               case "img":
                 return (
-                  <figure key={i} className="article-figure">
+                  <figure key={i} className={`article-figure ${b.size === "narrow" ? "article-figure--narrow" : ""}`}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={b.src} alt={b.alt} loading="lazy" />
                     {b.caption && <figcaption>{b.caption}</figcaption>}

@@ -3,6 +3,7 @@ import { sportArticles } from "./articles-sport";
 import { politiqueArticles } from "./articles-politique";
 import { businessArticles } from "./articles-business";
 import { driveArticles } from "./articles-drive";
+import { portraitArticles } from "./articles-portraits";
 import { sport2Articles } from "./articles-sport-2";
 import { sport3Articles } from "./articles-sport-3";
 import { politique2Articles } from "./articles-politique-2";
@@ -23,6 +24,7 @@ export const ARTICLES: Article[] = [
   ...politiqueArticles,
   ...businessArticles,
   ...driveArticles,
+  ...portraitArticles,
   ...sport2Articles,
   ...sport3Articles,
   ...politique2Articles,

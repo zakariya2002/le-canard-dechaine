@@ -733,6 +733,10 @@ main {
   border-radius: 20px;
   display: block;
 }
+.article-figure--narrow {
+  margin: 40px auto;
+  max-width: 480px;
+}
 .article-figure figcaption {
   font-family: var(--poppins);
   font-size: 14px;
