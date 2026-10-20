@@ -2,6 +2,7 @@ import type { Article, Category } from "./types";
 import { sportArticles } from "./articles-sport";
 import { politiqueArticles } from "./articles-politique";
 import { businessArticles } from "./articles-business";
+import { driveArticles } from "./articles-drive";
 
 export type { Article, Category } from "./types";
 
@@ -15,6 +16,7 @@ export const ARTICLES: Article[] = [
   ...sportArticles,
   ...politiqueArticles,
   ...businessArticles,
+  ...driveArticles,
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getArticle(slug: string) {
