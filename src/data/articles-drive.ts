@@ -9,8 +9,8 @@ export const driveArticles: Article[] = [
     title: "Qassim Rouahi : de la fac de médecine à la tête d’un réseau de franchise automobile",
     excerpt:
       "Il s’est lancé dans l’automobile à 21 ans, en pleine études de médecine, avant de tout miser sur la voiture d’occasion. Portrait du fondateur de Drive, qui veut changer la façon dont les particuliers vendent leur véhicule.",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80",
-    imageAlt: "Berline sombre roulant sur une voie rapide",
+    image: "/media/articles/qassim-rouahi.jpg",
+    imageAlt: "Qassim Rouahi, fondateur de Drive, sur un toit parisien",
     author: "Nadia Benali",
     date: "2026-10-20",
     readTime: 6,
@@ -78,8 +78,8 @@ export const driveArticles: Article[] = [
     title: "Drive, le réseau qui veut digitaliser et sécuriser la vente de voitures entre particuliers",
     excerpt:
       "Pas de stock, pas de concession, une plateforme maison et une transaction assurée : décryptage du modèle de Drive (Drivecar.io), la jeune franchise française d’intermédiation automobile.",
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1600&q=80",
-    imageAlt: "Voiture de sport blanche dans un showroom sombre",
+    image: "/media/articles/drive-agence.jpg",
+    imageAlt: "Façade d’une agence Drive illuminée de nuit",
     author: "Karim Haddad",
     date: "2026-10-19",
     readTime: 7,
