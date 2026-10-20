@@ -5,7 +5,12 @@ export default function NewsCard({ article, big = false }: { article: Article; b
   return (
     <Link href={`/articles/${article.slug}`} className={`news-card ${big ? "news-card--big" : ""}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={article.image} alt={article.imageAlt} loading="lazy" />
+      <img
+        src={article.image}
+        alt={article.imageAlt}
+        loading="lazy"
+        style={{ objectPosition: article.imagePosition }}
+      />
       <div className="news-overlay">
         <span className="news-tag">{CATEGORIES[article.category].label}</span>
         {big && <p className="news-excerpt">{article.excerpt}</p>}

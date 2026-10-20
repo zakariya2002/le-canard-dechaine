@@ -44,7 +44,7 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
         </header>
         <figure className="article-cover">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={article.image} alt={article.imageAlt} />
+          <img src={article.image} alt={article.imageAlt} style={{ objectPosition: article.imagePosition }} />
         </figure>
         <div className="article-body">
           {article.body.map((b, i) => {

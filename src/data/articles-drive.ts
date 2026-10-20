@@ -11,6 +11,7 @@ export const driveArticles: Article[] = [
       "Il s’est lancé dans l’automobile à 21 ans, en pleine études de médecine, avant de tout miser sur la voiture d’occasion. Portrait du fondateur de Drive, qui veut changer la façon dont les particuliers vendent leur véhicule.",
     image: "/media/articles/qassim-rouahi.jpg",
     imageAlt: "Qassim Rouahi, fondateur de Drive, sur un toit parisien",
+    imagePosition: "center 15%",
     author: "Nadia Benali",
     date: "2026-10-20",
     readTime: 6,

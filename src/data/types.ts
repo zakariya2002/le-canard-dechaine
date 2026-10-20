@@ -13,6 +13,7 @@ export type Article = {
   excerpt: string;
   image: string; // https://images.unsplash.com/photo-...?w=1600&q=80
   imageAlt: string;
+  imagePosition?: string; // CSS object-position, e.g. "center 20%"
   author: string;
   date: string; // ISO yyyy-mm-dd
   readTime: number; // minutes
